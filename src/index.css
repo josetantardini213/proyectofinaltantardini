@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.cart-widget-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px; /* Puedes ajustar según prefieras */
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: -5px 0px 15px rgba(0,0,0,0.3);
+  overflow-y: auto;
+}
+
+.btn-close-widget {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+}
+
+.cart-widget-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.carritovacio {
+  text-align: center;
+  margin-top: 50%;
+/* alinear texto al centro de contenedor*/
+
+
+}
+
+/*ajustar imagen del carrito*/
+.cart-widget-item img {
+  margin-top: 100px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/*separar los botones */
+.bononesitem {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 10px;  /* Añade 10px de espacio entre los botones */
+}
